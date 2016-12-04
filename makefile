@@ -3,7 +3,7 @@
 .PHONY:clean all
 CC=gcc
 CFLAGS=-Wall -g
-BIN=
+BIN=code
 all:$(BIN)
 %.o:%.c
 	$(CC) $(CFLAGS) -c $< -o $@
